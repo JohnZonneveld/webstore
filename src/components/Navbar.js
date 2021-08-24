@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../logo.svg'
+import logo from '../logo1.svg'
 import { ButtonContainer } from './Button'
 import styled from 'styled-components'
 
 export default class Navbar extends Component {
     render() {
         return (
-            <NavWrapper className="navbar  navbar-dark px-sm-5">
+            <NavWrapper className="navbar navbar-dark px-sm-5">
                 <Link to='/'>
-                    <img src={logo} alt="home" />
+                    <img src={logo} alt="home" className="change-my-color"/>
                 </Link>
                 <ul className="navbar-nav align-items-center">
                     <li className="navbar-item ml-5">
